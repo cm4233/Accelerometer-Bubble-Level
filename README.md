@@ -5,7 +5,9 @@ Unfortunately, the code for this old project has been lost in time. Hence this r
 ## Description
 This project is used to determine the flatness of the surface using a virtual bubble on a LCD screen which is interfaced to STM32F4 Discovery microcontoller. The virtual bubble displaces in the opposite direction of the tilt of the surface on which the microcontroller is placed on. The surface is said to be completely flat when the bubble is inside the box on the LCD screen.
 
+<p align="center">
 <img src="run.png"/>
+</p>
 
 ## Components
 * LCD screen : Nokia 5110 LCD (84 x 48). It uses the PCD8544 driver which is a low power CMOS LCD controller/driver, designed to drive a graphic display of 48 rows and 84 columns. The LCD is interfaced to the microcontroller using SPI.
